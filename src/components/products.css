@@ -135,5 +135,59 @@
     background-color: #45a049;
     transform: scale(1.05);
   }
+  .sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .sort-bar h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .sort-bar button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sort-bar button.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .sort-bar button:hover {
+    background-color: #ddd;
+  }
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-bar h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .filter-bar label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .filter-bar input {
+    margin-right: 8px;
+  }
+  
     
   
