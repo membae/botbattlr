@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     // Fetch bots from the server
-    fetch("http://localhost:3000/bots")
+    fetch("https://botbattlr-fkki.onrender.com/bots")
       .then((res) => res.json())
       .then((data) => setBots(data));
   }, []);

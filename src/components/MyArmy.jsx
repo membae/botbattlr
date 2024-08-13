@@ -3,7 +3,7 @@ import Product from "./Product";
 
 const MyArmy = ({ myBots, setMyBots }) => {
   const handleDeleteBot = (id) => {
-    fetch(`http://localhost:3000/bots/${id}`, {
+    fetch(`https://botbattlr-fkki.onrender.com/bots/${id}`, {
       method: "DELETE",
     })
       .then((response) => {
