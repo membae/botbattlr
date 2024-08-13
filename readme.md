@@ -2,7 +2,7 @@
 
 ## vercel link
 
-botbattlr-xi.vercel.app
+https://botbattlr-77ax.vercel.app/
 
 This React app allows users to manage a collection of bots, view detailed information about each bot, and organize their own army of bots. The app includes features for sorting and filtering bots to enhance user experience.
 
